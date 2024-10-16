@@ -1,0 +1,31 @@
+name: Docker Build & Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout para el flujo de trabajo
+      uses: actions/checkout@v2
+
+    - name: Login de dockerhub 
+      run: docker login -u ${{ secrets.DOCKERHUB_USER }} -p ${{ secrets.DOCKERHUB_TKN }}
+    - name: Set version
+      run: |
+        VERSION_PREFIX=$(( ${{ github.run_number }} / 10 ))
+        VERSION_SUFFIX=$(( ${{ github.run_number }} % 10 ))
+        VERSION="${VERSION_PREFIX}.${VERSION_SUFFIX}"
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+    - name: mostrar archivos
+      run: cd docker/
+
+    - name: Building
+      run: docker build -t francogcuenca/dmd-sat:$VERSION .
+
+    - name: Push hacia dockerhub
+      run: docker push francogcuenca/dmd-sat:$VERSION

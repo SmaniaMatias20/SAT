@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  sat-frontend:
+    env_file: ./.env
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "80:80" # Mapear el puerto 80 del contenedor al puerto 3000 del host
+    container_name: sat-frontend
+    stdin_open: true
+    restart: unless-stopped

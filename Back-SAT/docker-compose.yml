@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  sat-backend:
+    env_file: ./.env
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    container_name: sat-backend
+    stdin_open: true
+    volumes:
+      - /app/node_modules
+    command: npm run dev
+    restart: unless-stopped

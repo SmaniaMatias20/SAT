@@ -1,0 +1,28 @@
+name: Docker build and publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: DockerHub login
+      run: docker login -u ${{ secrets.DOCKERHUB_USER }} -p ${{ secrets.DOCKERHUB_TKN }}
+
+    - name: Set version
+      run: |
+        VERSION=$(( ((${GITHUB_RUN_NUMBER} - 1) / 10) )).$((${GITHUB_RUN_NUMBER} % 10))
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+    - name: Build Docker image
+      run: docker build -t francogcuenca/dmd-sat-api:$VERSION .
+
+    - name: Push Docker image
+      run: docker push francogcuenca/dmd-sat-api:$VERSION

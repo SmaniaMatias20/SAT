@@ -1,0 +1,778 @@
+{
+	"info": {
+		"_postman_id": "5618074f-8346-48fc-882e-b531fe6dbeda",
+		"name": "api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8589962"
+	},
+	"item": [
+		{
+			"name": "usuarios",
+			"item": [
+				{
+					"name": "IniciarSesion",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDg1NzA3MiwiZXhwIjoxNzI0ODYwNjcyfQ.joHiRxNgFD7JxvGahib7sY_DEhkl8yZt7SACg_1--jI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "usuario",
+									"value": "hernan"
+								},
+								{
+									"key": "password",
+									"value": "123456789"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuarios/iniciarSesion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"iniciarSesion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "crearUsuario",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDkzODMxNSwiZXhwIjoxNzI0OTQxOTE1fQ.W5VF3zmPtf7-z-9z7ALabACphZ_H2rneSPMryVv-EIo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "usuario",
+									"value": "hernan"
+								},
+								{
+									"key": "rol",
+									"value": "admin"
+								},
+								{
+									"key": "password",
+									"value": "123456789"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuarios/crearUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"crearUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "primerRoute",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "traerUsuarios",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDIzNjgzOCwiZXhwIjoxNzI0MjQwNDM4fQ.RzbAIRStGtRR0Aw5qPjWuKiUPgKo5b6pNdj-OTZ8wwg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/usuarios/listaUsuarios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"listaUsuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modificarUsuario",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDkzNDYzNiwiZXhwIjoxNzI0OTM4MjM2fQ.5_6nek1YVpP5o51WzRunOZQ6W3HUPixgDKvob1oC0cs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "usuario",
+									"value": "hernan523"
+								},
+								{
+									"key": "password",
+									"value": "1234567891"
+								},
+								{
+									"key": "passwordRepeat",
+									"value": "1234567891"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuarios/modificarUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"modificarUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "borrarUsuario",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDkzNDYzNiwiZXhwIjoxNzI0OTM4MjM2fQ.5_6nek1YVpP5o51WzRunOZQ6W3HUPixgDKvob1oC0cs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "usuario",
+									"value": "hernan523"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/usuarios/borrarUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usuarios",
+								"borrarUsuario"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ordenesTrabajo",
+			"item": [
+				{
+					"name": "crearOrden",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDk0Mzk3MiwiZXhwIjoxNzI0OTQ3NTcyfQ.WE1TQR_OlkxM-vsPeh6w9kOoZ96jiEZ7StbsdQp_n4k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "titulo",
+									"value": "DENAIR 20K1",
+									"type": "default"
+								},
+								{
+									"key": "cliente",
+									"value": "adasd",
+									"type": "default"
+								},
+								{
+									"key": "responsable",
+									"value": "dasda5",
+									"type": "default"
+								},
+								{
+									"key": "archivo",
+									"type": "file",
+									"src": "/C:/Users/desar/OneDrive/Desktop/Back-Sat/archivo22.pdf"
+								},
+								{
+									"key": "numOrden",
+									"value": "NF4565sscc",
+									"type": "text"
+								},
+								{
+									"key": "aprobado",
+									"value": "asdadasd",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/ordenes/cargar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"cargar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modificarOrden",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDkzNDYzNiwiZXhwIjoxNzI0OTM4MjM2fQ.5_6nek1YVpP5o51WzRunOZQ6W3HUPixgDKvob1oC0cs",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "titulo",
+									"value": "DENAIR20KWssss",
+									"type": "text"
+								},
+								{
+									"key": "numOrden",
+									"value": "123-AS",
+									"type": "text"
+								},
+								{
+									"key": "cliente",
+									"value": "tito2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "responsable",
+									"value": "JuanCarloss",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "archivo",
+									"type": "file",
+									"src": "/C:/Users/desar/OneDrive/Desktop/archivo.pdf",
+									"disabled": true
+								},
+								{
+									"key": "estado",
+									"value": "realizada",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/ordenes/modificarOrdenes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"modificarOrdenes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "borrarOrden",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDY4MTIwMCwiZXhwIjoxNzI0Njg0ODAwfQ.KfQmV1U_8_BXY6qi3fU2B6ZNW7ygKVSp6QkmdRioAIY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "numOrden",
+									"value": "NF456",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/ordenes/borrarOrdenes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"borrarOrdenes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "listarOrdenes",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDg1NzA3MiwiZXhwIjoxNzI0ODYwNjcyfQ.joHiRxNgFD7JxvGahib7sY_DEhkl8yZt7SACg_1--jI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes/listarOrdenesTrabajo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"listarOrdenesTrabajo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "listarColumnas",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDg1MzQ1MSwiZXhwIjoxNzI0ODU3MDUxfQ.N5XYwL4s4-xrVWTIKNg6WXN9zKgVQURAPXvBCTGkrP8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes/listarColumnas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"listarColumnas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/ordenes/descargar?id=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenes",
+								"descargar"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "parametros",
+			"item": [
+				{
+					"name": "crearParametro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"1\",\r\n    \"DATATYPE\":\"dato\",\r\n    \"UNIT\":\"unico\",\r\n    \"DROP_OPTIONS\":\"borrarOpcion\",\r\n    \"REF_VAL\":\"valorReferencia\",\r\n    \"MANUAL\":false,\r\n    \"COT\":false,\r\n    \"ENT\":false,\r\n    \"SECADORES\":false,\r\n    \"FAB\":false,\r\n    \"COMP\":false,\r\n    \"MP\":true,\r\n    \"FILTRO\":true,\r\n    \"AT\":false,\r\n    \"REP\":false,\r\n    \"EVI\":false,\r\n    \"VARIABLE\":false,\r\n    \"FIJO\":false,\r\n    \"ANALOGICO\":false,\r\n    \"DENAIR\":false,\r\n    \"PEM\":false,\r\n    \"EMER\":false,\r\n    \"CP_GRAL\":false,\r\n    \"OILFREE\":false,\r\n    \"POST\":false,\r\n    \"Acepta_nulo\":false,\r\n    \"id\":1\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/parametros/crearParametro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"parametros",
+								"crearParametro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modificarParametros",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"hernan\",\r\n    \"borrarOpcion\":\"3\",\r\n    \"valorReferencia\":\"valorReferencia\",\r\n    \"fab\":false,\r\n    \"variable\":false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/parametros/modificarParametro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"parametros",
+								"modificarParametro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "borrarParamero",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nombre",
+									"value": "hernan",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/parametros/borrarParametro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"parametros",
+								"borrarParametro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filtrarParametros",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tipoServicio\":\"COT\",\r\n    \"modelo\":\"MP\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/parametros/filtrarParams",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"parametros",
+								"filtrarParams"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ordenOTCargadas",
+			"item": [
+				{
+					"name": "CargarOrden",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDc2NDEzNiwiZXhwIjoxNzI0NzY3NzM2fQ.jZ_vlBqvFNEYMrSMmOk7Ip1P3mCbL2dhIevZf8FxY5k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idOt\":28,\r\n    \"idParam\":29,\r\n    \"valor\":\"asda\",\r\n    \"nombre\":\"Hernán\",\r\n    \"tipoDeDato\":\"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/ordenesCargadas/cargar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenesCargadas",
+								"cargar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "borrarOrden",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/ordenesCargadas/borrarOrdenTrabajada",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenesCargadas",
+								"borrarOrdenTrabajada"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "modificarOrdenesCargadas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":6,\r\n    \"idParam\":49,\r\n    \"valor\":\"valorr\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/ordenesCargadas/modificarOrdenTrabajada",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenesCargadas",
+								"modificarOrdenTrabajada"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "listarOrdenesCargadas",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDkzNTE4OSwiZXhwIjoxNzI0OTM4Nzg5fQ.c9DfL7LxUvhXmz_daFN-pUsHPLaXrMY-ac0MUXHPDDI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/ordenesCargadas/listarOrdenesCargadas",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenesCargadas",
+								"listarOrdenesCargadas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "listarColumnas",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJoZXJuYW4iLCJyb2wiOiJhZG1pbiIsImlhdCI6MTcyNDkzNTE4OSwiZXhwIjoxNzI0OTM4Nzg5fQ.c9DfL7LxUvhXmz_daFN-pUsHPLaXrMY-ac0MUXHPDDI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/ordenesCargadas/listaColumnas",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ordenesCargadas",
+								"listaColumnas"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
