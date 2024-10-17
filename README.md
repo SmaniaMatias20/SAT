@@ -29,9 +29,11 @@ Aplicación web que permite digitalizar la revisión de compresores de aire, pro
 - **Zod**: Biblioteca para validaciones de datos y esquemas.
 
 ## Herramientas
+![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white) ![DBeaver](https://img.shields.io/badge/dbeaver-%23000000.svg?style=for-the-badge&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/visual_studio_code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 - **Postman**: Herramienta para probar y documentar APIs.
 - **DBeaver**: Herramienta de administración de bases de datos para gestionar y consultar PostgreSQL.
+- **Visual Studio Code**: Editor de código fuente para desarrollo web y otros lenguajes.
 
 ## Funcionalidades
 
