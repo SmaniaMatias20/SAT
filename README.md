@@ -50,7 +50,7 @@ Aplicación web que permite digitalizar la revisión de compresores de aire, pro
   - Generación automática de informes en formato PDF al finalizar la revisión utilizando Puppeteer.
   - Envío del informe PDF por correo electrónico al cliente utilizando Nodemailer.
 
-## Instalación en Linux
+## Instalación
 
 Para instalar y ejecutar el proyecto en tu máquina local con Linux, sigue estos pasos:
 
