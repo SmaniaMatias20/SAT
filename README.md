@@ -8,7 +8,7 @@ Este proyecto es una aplicación web que permite digitalizar la revisión de com
 
 - **React**: Biblioteca de JavaScript para construir interfaces de usuario.
 - **Tailwind CSS**: Framework CSS para diseño y estilo de la aplicación.
-- **shadcn**: Biblioteca de componentes para mejorar la UI.
+- **Shadcn**: Biblioteca de componentes para mejorar la UI.
 - **Lucide-React**: Biblioteca de iconos para enriquecer la interfaz de usuario.
 - **Axios**: Biblioteca para realizar solicitudes HTTP.
 - **Zod**: Biblioteca para validaciones de datos y esquemas.
