@@ -1,4 +1,4 @@
-# Proyecto de Digitalización de Revisión de Compresores de Aire
+# Proyecto SAT
 
 Este proyecto es una aplicación web que permite digitalizar la revisión de compresores de aire, proporcionando a los clientes un informe detallado sobre el estado de sus equipos. La aplicación se desarrolla utilizando un enfoque de programación funcional, lo que permite una gestión más eficiente del estado y la lógica de la aplicación. A través de un formulario dinámico, los usuarios pueden registrar las revisiones de los compresores y, al finalizar, recibir un informe en formato PDF. Este informe se envía por correo electrónico al cliente utilizando Nodemailer. Además, la aplicación incluye funcionalidades para la gestión de usuarios, parámetros de compresores y órdenes de trabajo.
 
