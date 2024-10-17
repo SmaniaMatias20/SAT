@@ -5,6 +5,7 @@ Aplicación web que permite digitalizar la revisión de compresores de aire, pro
 ## Tecnologías Utilizadas
 
 ### Frontend
+![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Shadcn](https://img.shields.io/badge/shadcn-%23000000.svg?style=for-the-badge&logoColor=white) ![Lucide-React](https://img.shields.io/badge/lucide-react-%23000000.svg?style=for-the-badge&logoColor=white) ![Axios](https://img.shields.io/badge/axios-%23232B34.svg?style=for-the-badge&logo=axios&logoColor=white) ![Zod](https://img.shields.io/badge/zod-%23000000.svg?style=for-the-badge&logoColor=white)
 
 - **React**: Biblioteca de JavaScript para construir interfaces de usuario.
 - **Tailwind CSS**: Framework CSS para diseño y estilo de la aplicación.
