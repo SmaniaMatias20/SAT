@@ -11,7 +11,6 @@ Este proyecto es una aplicación web que permite digitalizar la revisión de com
 - **shadcn**: Biblioteca de componentes para mejorar la UI.
 - **Lucide-React**: Biblioteca de iconos para enriquecer la interfaz de usuario.
 - **Axios**: Biblioteca para realizar solicitudes HTTP.
-- **Hooks personalizados**: Para manejar el estado y la lógica de la aplicación de manera más eficiente.
 - **Zod**: Biblioteca para validaciones de datos y esquemas.
 
 ### Backend
