@@ -1,6 +1,6 @@
-# Proyecto SAT
+# Proyecto de Digitalización de Revisión de Compresores de Aire
 
-Aplicación web que permite digitalizar la revisión de compresores de aire, proporcionando a los clientes un informe detallado sobre el estado de sus equipos. La aplicación se desarrolla utilizando un enfoque de programación funcional, lo que permite una gestión más eficiente del estado y la lógica de la aplicación. A través de un formulario dinámico, los usuarios pueden registrar las revisiones de los compresores y, al finalizar, recibir un informe en formato PDF. Este informe se envía por correo electrónico al cliente utilizando Nodemailer. Además, la aplicación incluye funcionalidades para la gestión de usuarios, parámetros de compresores y órdenes de trabajo.
+Este proyecto es una aplicación web que permite digitalizar la revisión de compresores de aire, proporcionando a los clientes un informe detallado sobre el estado de sus equipos. La aplicación se desarrolla utilizando un enfoque de programación funcional, lo que permite una gestión más eficiente del estado y la lógica de la aplicación. A través de un formulario dinámico, los usuarios pueden registrar las revisiones de los compresores y, al finalizar, recibir un informe en formato PDF. Este informe se envía por correo electrónico al cliente utilizando Nodemailer. Además, la aplicación incluye funcionalidades para la gestión de usuarios, parámetros de compresores y órdenes de trabajo.
 
 ## Tecnologías Utilizadas
 
@@ -50,6 +50,8 @@ Aplicación web que permite digitalizar la revisión de compresores de aire, pro
   - Generación automática de informes en formato PDF al finalizar la revisión utilizando Puppeteer.
   - Envío del informe PDF por correo electrónico al cliente utilizando Nodemailer.
 
+## Imagenes
+
 ## Instalación
 
 Para instalar y ejecutar el proyecto en tu máquina local con Linux, sigue estos pasos:
@@ -57,5 +59,5 @@ Para instalar y ejecutar el proyecto en tu máquina local con Linux, sigue estos
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/tuusuario/nombre-del-repositorio.git
-   cd nombre-del-repositorio
+   git clone https://github.com/SmaniaMatias20/SAT.git
+   cd SAT
