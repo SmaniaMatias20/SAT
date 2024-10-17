@@ -15,7 +15,7 @@ Aplicación web que permite digitalizar la revisión de compresores de aire, pro
 - **Zod**: Biblioteca para validaciones de datos y esquemas.
 
 ### Backend
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Express](https://img.shields.io/badge/express-%23404D59.svg?style=for-the-badge&logo=express&logoColor=white) ![Sequelize](https://img.shields.io/badge/sequelize-%23000000.svg?style=for-the-badge&logo=sequelize&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-%2321C7C1.svg?style=for-the-badge&logo=json-web-token&logoColor=white) ![Nodemailer](https://img.shields.io/badge/nodemailer-%23E5E5E5.svg?style=for-the-badge&logo=npm&logoColor=black) ![Puppeteer](https://img.shields.io/badge/puppeteer-%23000000.svg?style=for-the-badge&logo=googlechrome&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Zod](https://img.shields.io/badge/zod-%23000000.svg?style=for-the-badge&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Express](https://img.shields.io/badge/express-%23404D59.svg?style=for-the-badge&logo=express&logoColor=white) ![Sequelize](https://img.shields.io/badge/sequelize-%23000000.svg?style=for-the-badge&logo=sequelize&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-%2321C7C1.svg?style=for-the-badge&logo=json-web-token&logoColor=white) ![Nodemailer](https://img.shields.io/badge/nodemailer-%23E5E5E5.svg?style=for-the-badge&logo=npm&logoColor=black) ![Puppeteer](https://img.shields.io/badge/puppeteer-%23000000.svg?style=for-the-badge&logo=googlechrome&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white) ![Zod](https://img.shields.io/badge/zod-%23000000.svg?style=for-the-badge&logoColor=white)
 
 - **Node.js**: Entorno de ejecución para JavaScript en el servidor.
 - **Express**: Framework para Node.js que simplifica la creación de aplicaciones web y APIs.
@@ -25,16 +25,21 @@ Aplicación web que permite digitalizar la revisión de compresores de aire, pro
 - **Nodemailer**: Biblioteca para enviar correos electrónicos a los clientes.
 - **Puppeteer**: Biblioteca para la generación de documentos PDF.
 - **Docker**: Contenerización de la aplicación para facilitar su despliegue y gestión.
-- **Jenkins**: Herramienta de integración continua para automatizar el proceso de construcción y despliegue.
+
 - **Zod**: Biblioteca para validaciones de datos y esquemas.
 
 
 ## Herramientas
-![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white) ![DBeaver](https://img.shields.io/badge/dbeaver-%23000000.svg?style=for-the-badge&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/visual_studio_code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white) ![DBeaver](https://img.shields.io/badge/dbeaver-%23000000.svg?style=for-the-badge&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/visual_studio_code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![NPM](https://img.shields.io/badge/npm-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Nodemon](https://img.shields.io/badge/nodemon-%23E05C5C.svg?style=for-the-badge&logo=npm&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B5EFC.svg?style=for-the-badge&logo=vite&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white)
 
 - **Postman**: Herramienta para probar y documentar APIs.
 - **DBeaver**: Herramienta de administración de bases de datos para gestionar y consultar PostgreSQL.
 - **Visual Studio Code**: Editor de código fuente para desarrollo web y otros lenguajes.
+- **NPM**: Gestor de paquetes para JavaScript que permite instalar y gestionar dependencias.
+- **Nodemon**: Herramienta que reinicia automáticamente la aplicación Node.js cuando se detectan cambios en el código.
+- **Vite**: Herramienta de construcción y desarrollo que proporciona un entorno de desarrollo rápido y eficiente para aplicaciones modernas.
+- **Jenkins**: Herramienta de integración continua para automatizar el proceso de construcción y despliegue.
 
 ## Funcionalidades
 
