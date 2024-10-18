@@ -31,14 +31,10 @@ Aplicación web que permite digitalizar la revisión de compresores de aire, pro
 
 ## Herramientas
 
-![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white) ![DBeaver](https://img.shields.io/badge/dbeaver-%23000000.svg?style=for-the-badge&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/visual_studio_code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![NPM](https://img.shields.io/badge/npm-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Nodemon](https://img.shields.io/badge/nodemon-%23E05C5C.svg?style=for-the-badge&logo=npm&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B5EFC.svg?style=for-the-badge&logo=vite&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white) ![DBeaver](https://img.shields.io/badge/dbeaver-%23000000.svg?style=for-the-badge&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white)
 
 - **Postman**: Herramienta para probar y documentar APIs.
 - **DBeaver**: Herramienta de administración de bases de datos para gestionar y consultar PostgreSQL.
-- **Visual Studio Code**: Editor de código fuente para desarrollo web y otros lenguajes.
-- **NPM**: Gestor de paquetes para JavaScript que permite instalar y gestionar dependencias.
-- **Nodemon**: Herramienta que reinicia automáticamente la aplicación Node.js cuando se detectan cambios en el código.
-- **Vite**: Herramienta de construcción y desarrollo que proporciona un entorno de desarrollo rápido y eficiente para aplicaciones modernas.
 - **Jenkins**: Herramienta de integración continua para automatizar el proceso de construcción y despliegue.
 
 ## Funcionalidades
