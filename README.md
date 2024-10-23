@@ -59,13 +59,13 @@ Aplicación web que permite digitalizar la revisión de compresores de aire, pro
 
 ## Imagenes
 
-![Texto alternativo](ruta/a/la/imagen.jpg)
+![Texto alternativo](https://github.com/SmaniaMatias20/SAT/blob/master/Img/img1.png)
 
-![Texto alternativo](ruta/a/la/imagen.jpg)
+![Texto alternativo](https://github.com/SmaniaMatias20/SAT/blob/master/Img/img3.png)
 
-![Texto alternativo](ruta/a/la/imagen.jpg)
+![Texto alternativo](https://github.com/SmaniaMatias20/SAT/blob/master/Img/img4.png)
 
-![Texto alternativo](ruta/a/la/imagen.jpg)
+![Texto alternativo](https://github.com/SmaniaMatias20/SAT/blob/master/Img/img5.png)
 
 
 ## Instalación
