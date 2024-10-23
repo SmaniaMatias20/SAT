@@ -59,6 +59,15 @@ Aplicación web que permite digitalizar la revisión de compresores de aire, pro
 
 ## Imagenes
 
+![Texto alternativo](ruta/a/la/imagen.jpg)
+
+![Texto alternativo](ruta/a/la/imagen.jpg)
+
+![Texto alternativo](ruta/a/la/imagen.jpg)
+
+![Texto alternativo](ruta/a/la/imagen.jpg)
+
+
 ## Instalación
 
 Para instalar y ejecutar el proyecto en tu máquina local con Linux, sigue estos pasos:
